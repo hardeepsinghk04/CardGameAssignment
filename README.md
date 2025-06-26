@@ -61,7 +61,7 @@ Ace of SPADE (♠, Rank: 1)
 🔸 Draw Top 5 Cards:
 Drawn Card: Ace of CLUB (♣, Rank: 1)
 ...
-Drawn Card: 3 of DIAMOND (♦, Rank: 3)
+Drawn Card: 2 of CLUB (♣, Rank: 2)
 
 🔸 Remaining cards in deck: 47
 
