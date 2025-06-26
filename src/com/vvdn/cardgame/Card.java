@@ -1,9 +1,9 @@
 package com.vvdn.cardgame;
 
 public class Card {
-    private Suit suit;
-    private String face;
-    private int rank;
+    private final Suit suit;
+    private final String face;
+    private final int rank;
 
     public Card(Suit suit, String face, int rank) {
         this.suit = suit;
@@ -32,8 +32,8 @@ public class Card {
             case 'J': return new Card(suit, "Jack", 11);
             case 'Q': return new Card(suit, "Queen", 12);
             case 'K': return new Card(suit, "King", 13);
-            case 'A': return new Card(suit, "Ace", 14);
-            default: return null;
+            case 'A': return new Card(suit, "Ace", 1);
+            default: throw new IllegalArgumentException("Invalid face card: " + abbrev);
         }
     }
 
