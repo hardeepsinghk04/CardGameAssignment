@@ -18,15 +18,7 @@ This is a simple **Java-based console application** simulating a standard deck o
 
 ## 📂 Project Structure
 
-CardGameAssignment/
-└── src/
-└── com/
-└── vvdn/
-└── cardgame/
-├── Suit.java
-├── Card.java
-├── DeckGenerator.java
-└── Main.java
+<pre> ``` CardGameAssignment/ └── src/ └── com/ └── vvdn/ └── cardgame/ ├── Suit.java ├── Card.java ├── DeckGenerator.java └── Main.java ``` </pre>
 
 ---
 
