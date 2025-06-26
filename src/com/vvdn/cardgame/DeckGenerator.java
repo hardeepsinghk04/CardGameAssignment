@@ -7,7 +7,9 @@ public class DeckGenerator {
     public static List<Card> getStandardDeck() {
         List<Card> deck = new ArrayList<>();
 
+
         for (Suit suit : Suit.values()) {
+            deck.add(Card.getFaceCard(suit, 'A'));
             // Add numeric cards (2 to 10)
             for (int i = 2; i <= 10; i++) {
                 deck.add(Card.getNumericCard(suit, i));
